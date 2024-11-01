@@ -1,4 +1,4 @@
 <h1>მომხმარებელი, რომლის ასაკიც 20 წელზე მეტია:  </h1>
 <div *ngFor= "let user of Users ">
-    <h2 *ngIf= "user.FirstName== 'Nino'">{{user.FirstName}} <br>  {{user.LastName}} <br> {{user.Age}} </h2>
+    <h2 *ngIf= "user.Age > 20">{{user.FirstName}} <br>  {{user.LastName}} <br> {{user.Age}} </h2>
 </div>
